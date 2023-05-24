@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+.table {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #ff4136;
+  color: #fff;
+  border-color: #ff4136;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li::before {
+  content: '\2022';
+  color: #ff4136;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
